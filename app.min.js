@@ -1,4 +1,3 @@
-<script>
       // ----- PWA: register service worker (works on http://localhost or https) -----
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
@@ -193,4 +192,3 @@ ISPTA: ${outputs.out_ispta.textContent}`;
 
       updateZUI();
       updateAll();
-    </script>
